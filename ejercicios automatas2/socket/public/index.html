@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>My aplicacion con sockets</title>
+ <script src="/socket.io/socket.io.js"></script>
+ <script src="main.js"></script>
+</head>
+<h1><p style="font-size:25px;
+  color:black;
+  font-family:Arial;
+  text-align:center;"
+  )>EJERCICIOS INDIVIDUALES</h1>
+
+  <h1><p style="font-size:18px;
+    color:black;
+    font-family:Arial;
+    text-align:center;"
+    )>My app</h1>
+
+<body style="background-color:cadetblue;">
+    <div style="background-color:white;"
+    id="messages"></div>
+    <br>
+    <form onsubmit="return addMessage(this)">
+      <input style="font-size:15px;
+      width: 150px;
+      padding:10px;
+      border: 2px solid black;
+      color:black;
+      background-color:white;
+      font-family:Arial;"
+      type="text" id="username" placeholder="Tu nombre">
+      <input 
+      style="font-size:15px;
+      width: 150px;
+      padding:10px;
+      border: 2px solid black;
+      color:black;
+      background-color:white;
+      font-family:Arial;"
+    type="text" id="texto" placeholder="Cuentanos algo...">
+    <input style="font-size:15px;
+    color:white;
+    height:40px;
+    width:150px;
+    text-align:center;
+    background-color:DodgerBlue;
+    font-family:Arial;"
+    type="submit" value="Enviar">
+    </form>
+</body>
+</html>

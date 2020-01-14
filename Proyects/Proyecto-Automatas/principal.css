@@ -1,0 +1,20 @@
+img{
+    margin: auto;
+    display: block; 
+  }
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #232a34;
+    border-bottom: 7px #43bcfe solid;
+    color: white;
+}
+footer p{
+    text-align: center;
+    font-size: 26px;
+}
+div h1{
+    padding: 10px;
+    background-color: #232a34;
+    color: white; 
+}

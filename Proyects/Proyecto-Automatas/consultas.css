@@ -1,0 +1,33 @@
+nav  {
+    border-radius: 20px;
+    background: rgb(63, 63, 62);
+    margin-top: 5px;
+    padding: 10px;
+   line-height: 5px;
+ 
+    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+    
+}
+nav ul#botones { padding: 5px; }
+
+nav ul#botones li {
+    display: inline;
+}
+nav ul#botones li button {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 14;
+     border-radius: 14px;
+     font-size: 13px;
+     padding: 10px;
+    text-decoration: none;
+}
+div #A{
+    background: rgb(240, 240, 229);
+}
+#contenedor {
+    position: relative;
+    max-width: 98%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 18px rgba(0, 0, 0, .4)
+}
